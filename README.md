@@ -19,6 +19,6 @@ For example:
 The above example code means the element will transform *100px down from the bottom relative to its original position* in the browser, to *20px down from the bottom*, which will take *2 second*, and the timing function will be *linear*.
 
 ### The Last Important step!
-Add the classname 'tobeanimate' on the element you want to animate when scroll to its position.
+Add the classname `tobeanimate` on the element you want to animate when scroll to its position.
 
 ### And it's done, you're ready to go.
