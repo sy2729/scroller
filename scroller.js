@@ -1,11 +1,3 @@
-
-// var time = 1;
-// var effects = "ease-in-out"
-// var beforeX = 30;
-// var beforeY = 40;
-// var afterX = 0;
-// var afterY = 0;
-
 var selectElement = (name) => {
     var selectedEl = document.querySelectorAll(name);
     return selectedEl;
