@@ -14,6 +14,11 @@ var initialize = (beforeY, time, effects)=> {
     return wrap;
 };
 
+var wrap = selectElement('.tobeanimate');
+wrap.forEach(i => {
+    i.style.opacity = "0";
+});
+
 var slideInEffects = (afterY) => {
     var slideIn = selectElement('.slideIn');
     slideIn.forEach( each => {
